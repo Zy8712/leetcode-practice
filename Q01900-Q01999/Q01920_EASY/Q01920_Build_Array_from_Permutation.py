@@ -1,9 +1,10 @@
 class Solution(object):
-    def getConcatenation(self, nums):
+    def buildArray(self, nums):
         """
         :type nums: List[int]
         :rtype: List[int]
         """
-        ans = nums
-        ans.extend(nums)
+        ans = []
+        for i in range(len(nums)):
+            ans.append(nums[nums[i]])
         return ans
