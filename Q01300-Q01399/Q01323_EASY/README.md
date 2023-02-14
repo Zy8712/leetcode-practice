@@ -1,0 +1,1 @@
+<img src="Capture.png" alt="completion_time_69">
