@@ -26,13 +26,10 @@ Input: nums = [5,20,66,1314]
 Output: 4
 Explanation: There are 4 positive integers and 0 negative integers. The maximum count among them is 4.
 ```
-<br>
 <strong>Constraints:</strong>
 
 - `1 <= nums.length <= 2000`
 - `-2000 <= nums[i] <= 2000`
 - `nums` is sorted in a <strong>non-decreasing order</strong>.
-
-<br> 
 
 <strong>Follow up:</strong> Can you solve the problem in `O(log(n))` time complexity?
