@@ -4,9 +4,9 @@ There is a class with `m` students and `n` exams. You are given a 0-indexed `m x
 
 You are also given an integer `k`. Sort the students (i.e., the rows of the matrix) by their scores in the `kth` (0-indexed) exam from the highest to the lowest.
 
-<em>Return the matrix after sorting it.</em>
+<em>Return the matrix after sorting it.</em><br><br>
 
-<strong>Example 1:</strong>
+<strong>Example 1:</strong><br><br>
 <img src="./images/example1.png" alt="example1.png">
 ```
 Input: score = [[10,6,9,1],[7,5,11,2],[4,8,3,15]], k = 2
@@ -17,7 +17,7 @@ Explanation: In the above diagram, S denotes the student, while E denotes the ex
 - The student with index 2 scored 3 in exam 2, which is the lowest score, so they got third place.
 ```
 
-<strong>Example 2:</strong>
+<br><br><strong>Example 2:</strong><br><br>
 <img src="./images/example2.png" alt="example2.png">
 ```
 Input: score = [[3,4],[5,6]], k = 0
