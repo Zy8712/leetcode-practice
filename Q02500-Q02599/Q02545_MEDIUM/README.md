@@ -7,7 +7,7 @@ You are also given an integer `k`. Sort the students (i.e., the rows of the matr
 <em>Return the matrix after sorting it.</em>
 
 <strong>Example 1:</strong>
-<img src="./.images/example1.png" alt="example1.png">
+<img src="./images/example1.png" alt="example1.png">
 ```
 Input: score = [[10,6,9,1],[7,5,11,2],[4,8,3,15]], k = 2
 Output: [[7,5,11,2],[10,6,9,1],[4,8,3,15]]
@@ -18,7 +18,7 @@ Explanation: In the above diagram, S denotes the student, while E denotes the ex
 ```
 
 <strong>Example 2:</strong>
-<img src="./.images/example2.png" alt="example2.png">
+<img src="./images/example2.png" alt="example2.png">
 ```
 Input: score = [[3,4],[5,6]], k = 0
 Output: [[5,6],[3,4]]
