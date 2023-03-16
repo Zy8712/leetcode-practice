@@ -8,9 +8,9 @@ A string is called a <strong>vowel string</strong> if it starts with a vowel cha
 
 <strong>Example 1:</strong>
 ```
-<strong>Input:</strong> words = ["are","amy","u"], left = 0, right = 2
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> 
+Input: words = ["are","amy","u"], left = 0, right = 2
+Output: 2
+Explanation: 
 - "are" is a vowel string because it starts with 'a' and ends with 'e'.
 - "amy" is not a vowel string because it does not end with a vowel.
 - "u" is a vowel string because it starts with 'u' and ends with 'u'.
@@ -19,9 +19,9 @@ The number of vowel strings in the mentioned range is 2.
 
 <strong>Example 2:</strong>
 ```
-<strong>Input:</strong> words = ["hey","aeo","mu","ooo","artro"], left = 1, right = 4
-<strong>Output:</strong> 3
-<strong>Explanation:</strong>
+Input: words = ["hey","aeo","mu","ooo","artro"], left = 1, right = 4
+Output: 3
+Explanation:
 - "aeo" is a vowel string because it starts with 'a' and ends with 'o'.
 - "mu" is not a vowel string because it does not start with a vowel.
 - "ooo" is a vowel string because it starts with 'o' and ends with 'o'.

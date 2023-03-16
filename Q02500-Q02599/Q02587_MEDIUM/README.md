@@ -8,18 +8,18 @@ Return <em>the maximum score you can achieve</em>.
 
 <strong>Example 1:</strong>
 ```
-<strong>Input:</strong> nums = [2,-1,0,1,-3,3,-3]
-<strong>Output:</strong> 6
-<strong>Explanation:</strong> We can rearrange the array into nums = [2,3,1,-1,-3,0,-3].
+Input: nums = [2,-1,0,1,-3,3,-3]
+Output: 6
+Explanation: We can rearrange the array into nums = [2,3,1,-1,-3,0,-3].
 prefix = [2,5,6,5,2,2,-1], so the score is 6.
 It can be shown that 6 is the maximum score we can obtain.
 ```
 
 <strong>Example 2:</strong>
 ```
-<strong>Input:</strong> nums = [-2,-3,0]
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> Any rearrangement of the array will result in a score of 0.
+Input: nums = [-2,-3,0]
+Output: 0
+Explanation: Any rearrangement of the array will result in a score of 0.
 ```
 
 <strong>Constraints:</strong>

@@ -14,9 +14,9 @@ A subarray is a contiguous <strong>non-empty</strong> sequence of elements withi
 
 <strong>Example 1:</strong>
 ```
-<strong>Input:</strong> nums = [4,3,1,2,4]
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> There are 2 beautiful subarrays in nums: [4,3,1,2,4] and [4,3,1,2,4].
+Input: nums = [4,3,1,2,4]
+Output: 2
+Explanation: There are 2 beautiful subarrays in nums: [4,3,1,2,4] and [4,3,1,2,4].
 - We can make all elements in the subarray [3,1,2] equal to 0 in the following way:
   - Choose [3, 1, 2] and k = 1. Subtract 21 from both numbers. The subarray becomes [1, 1, 0].
   - Choose [1, 1, 0] and k = 0. Subtract 20 from both numbers. The subarray becomes [0, 0, 0].
@@ -28,9 +28,9 @@ A subarray is a contiguous <strong>non-empty</strong> sequence of elements withi
 
 <strong>Example 2:</strong>
 ```
-<strong>Input:</strong> nums = [1,10,4]
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> There are no beautiful subarrays in nums.
+Input: nums = [1,10,4]
+Output: 0
+Explanation: There are no beautiful subarrays in nums.
 ```
 
 <strong>Constraints:</strong>
